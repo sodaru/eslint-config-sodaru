@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sodaru",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "ESLint Configurations from Sodaru",
   "main": "index.js",
   "files": [
