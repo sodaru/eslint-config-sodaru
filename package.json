@@ -1,9 +1,12 @@
 {
   "name": "eslint-config-sodaru",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ESLint Configurations from Sodaru",
   "main": "index.js",
-  "files": ["react.js", "index.js"],
+  "files": [
+    "react.js",
+    "index.js"
+  ],
   "scripts": {
     "build": "node build.js",
     "pretest": "npm run build",
@@ -31,7 +34,6 @@
     "url": "https://github.com/sodaru/eslint-config-sodaru/issues"
   },
   "homepage": "https://github.com/sodaru/eslint-config-sodaru#readme",
-
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
