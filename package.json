@@ -1,0 +1,64 @@
+{
+  "name": "eslint-config-sodaru",
+  "version": "0.0.0",
+  "description": "ESLint Configurations from Sodaru",
+  "main": "index.js",
+  "files": ["react.js", "index.js"],
+  "scripts": {
+    "build": "node build.js",
+    "pretest": "npm run build",
+    "test": "npx jest",
+    "prepack": "npm run test",
+    "postversion": "git push --follow-tags"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "sodaru",
+    "eslint-typescript",
+    "eslint-react",
+    "code-sanity",
+    "sodaru",
+    "somod"
+  ],
+  "author": "Raghavendra K R <raghavendra@sodaru.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodaru/eslint-config-sodaru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sodaru/eslint-config-sodaru/issues"
+  },
+  "homepage": "https://github.com/sodaru/eslint-config-sodaru#readme",
+
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.28.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "ajv": "^8.6.2",
+    "babel-jest": "^27.0.6",
+    "eslint": "^8.6.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.28.0",
+    "jest": "^27.0.6",
+    "js-yaml": "^4.1.0",
+    "json-schema-migrate": "^2.0.0"
+  }
+}
