@@ -35,12 +35,12 @@
   },
   "homepage": "https://github.com/sodaru/eslint-config-sodaru#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.8.1",
-    "@typescript-eslint/parser": "^5.8.1",
-    "eslint": "^8.6.0",
-    "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-react": "^7.28.0"
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.8"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-react": {
@@ -51,8 +51,8 @@
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
     "@types/jest": "^26.0.24",
-    "@typescript-eslint/eslint-plugin": "^5.8.1",
-    "@typescript-eslint/parser": "^5.8.1",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
     "ajv": "^8.6.2",
     "babel-jest": "^27.0.6",
     "eslint": "^8.6.0",
